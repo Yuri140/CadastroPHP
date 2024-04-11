@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Software</title>
+    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container { 
+            width: 60%;
+            margin: 50px auto;
+            text-align: center;
+        }
+        
+        .button { 
+            display: inline-block;
+            width: 150px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .button:hover { 
+            background-color: #45a049;
+        } 
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nome do Software</h1>
+    </header>
+
+    <div class="container"> 
+        <section>
+            <p>Bem-vindo ao nosso software. Faça login ou cadastre-se para começar.</p>
+        </section>
+
+        <div>
+            <a href="form_cadastro.php" class="button">Cadastrar</a>
+            <a href="login.php" class="button">Login</a>
+            <a href="logout.php" class="button">Sair</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
