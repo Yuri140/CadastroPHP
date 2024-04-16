@@ -88,9 +88,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <form action="login.php" method="post">
         <h2>Login</h2>
         <label for="username">Usuário:</label><br>
-        <input type="text" id="username" name="username" required><br>
+        <input type="text" id="username" name="username" required autocomplete="off"><br>
         <label for="password">Senha:</label><br>
-        <input type="password" id="password" name="password" required><br>
+        <input type="password" id="password" name="password" required autocomplete="off"><br>
         <input type="submit" value="Logar">
         <div class="error-message"><?php echo $error_message; ?></div>
     </form>
